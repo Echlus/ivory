@@ -1,8 +1,8 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
 import { useContent, useLocation, ContentMenu } from '@builder.io/qwik-city';
-import styles from '../styles/breadcrumbs.css?inline';
+import styles from './breadcrumbs.css?inline';
 
-export const Breadcrumbs = component$(() => {
+export default component$(() => {
   useStyles$(styles);
 
   const { menu } = useContent();

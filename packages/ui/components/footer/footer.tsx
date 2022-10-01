@@ -1,7 +1,7 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
-import styles from '../styles/footer.css?inline';
+import styles from './footer.css?inline';
 
-export const Footer = component$(() => {
+export default component$(() => {
   useStyles$(styles);
 
   return (
