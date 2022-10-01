@@ -1,73 +1,26 @@
-# Turborepo starter
+<h1 align="center" style="text-align:center"><b>Ivory</b></h1>
+<h3 align="center"><b>Free and fast community driven web APIs for everyone</b></h3>
+<br>
+<br>
 
-This is an official pnpm starter turborepo.
+> ### Note
+> You might experience some delay or issue with the API's, we are working on it. If you want to contribute to the project, please read the [contributing guidelines](https://github.com/Echlus/ivory/blob/main/CONTRIBUTING.md)
 
-## What's inside?
+## 😸 About the project
+**Ivory** is a community driven project that aims to provide free and fast web APIs for everyone. Everyone can contribute to the project by adding new API's or fixing existing ones. The project is written in Typescrits and uses Nest.js and Qwik as the web framework. The project is currently in its early stages and we are working on adding more API's and improving the existing ones. If you want to contribute to the project, please read the [contributing guidelines](https://github.com/Echlus/ivory/blob/main/CONTRIBUTING.md)
+  
+## 🧩 Installation
 
-This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run build
+```bash
+git clone https://github.com/Echlus/ivory
+cd ivory
+pnpm install # we only allow pnpm to install dependencies
+pnpm dev # to start the development server
 ```
 
-### Develop
+## 📖 Documentation
+The documentation for the project is available at [Ivory Websites](https://ivory.ech.us). If you think that the documentation is missing something or is not clear enough, please open an issue or submit a pull request.
+> Ps. this readme also need some work, so if you want to help us with that, please do so.
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpm dlx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpm dlx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+## ❤️ Sponsor
+If you like the project and want to support it, please consider sponsoring the project. You can sponsor the project by donating to the project's [Open Collective](https://opencollective.com/ivory) or by donating to the project's [PayPal](https://paypal.me/echlus).
