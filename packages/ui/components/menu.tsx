@@ -1,8 +1,8 @@
 import { component$, mutable, useStyles$ } from '@builder.io/qwik';
 import { useContent, Link, useLocation } from '@builder.io/qwik-city';
-import styles from './menu.css?inline';
+import styles from '../styles/menu.css?inline';
 
-export default component$(() => {
+export const Menu = component$(() => {
   useStyles$(styles);
 
   const { menu } = useContent();
