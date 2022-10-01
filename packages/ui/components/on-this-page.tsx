@@ -1,8 +1,8 @@
 import { useContent, useLocation } from '@builder.io/qwik-city';
 import { component$, useStyles$ } from '@builder.io/qwik';
-import styles from './on-this-page.css?inline';
+import styles from '../styles/on-this-page.css?inline';
 
-export default component$(() => {
+export const OnThisPage = component$(() => {
   useStyles$(styles);
 
   const { headings } = useContent();

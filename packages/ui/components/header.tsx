@@ -1,9 +1,9 @@
 import { component$, useStyles$ } from '@builder.io/qwik';
 import { useLocation } from '@builder.io/qwik-city';
-import { QwikLogo } from '../icons/qwik';
-import styles from './header.css?inline';
+import { QwikLogo } from './qwik';
+import styles from '../styles/header.css?inline';
 
-export default component$(() => {
+export const Header = component$(() => {
   useStyles$(styles);
 
   const { pathname } = useLocation();
