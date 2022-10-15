@@ -9,6 +9,9 @@ export const Counter = component$(() => {
       <p>
         <button onClick$={() => store.count++}>Increment</button>
       </p>
+      <p>
+        <button onClick$={() => store.count--}>Decrement</button>
+      </p>
     </div>
   );
 });
