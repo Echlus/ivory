@@ -20,7 +20,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.9.0",
+    "@builder.io/qwik": "1.7.3",
     "@builder.io/qwik-city": "0.0.111",
     "@types/eslint": "8.4.6",
     "@types/node": "^18.7.23",
